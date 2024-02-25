@@ -17,7 +17,7 @@ public:
                 y=1;
             }
             ans=to_string((x+y+carry)%2) + ans;
-            carry=(x+y+carry)/2;q
+            carry=(x+y+carry)/2;
             i+=1;
         }
         return ans;
